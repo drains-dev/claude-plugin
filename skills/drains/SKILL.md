@@ -1,10 +1,10 @@
 ---
 name: drains
-description: "SkunkWorks Logs — engineering drain/entry log. Use whenever working on a project, investigating a problem, making decisions, or when asked about 'what happened' / 'what was decided' / 'what shipped'. Each project/team has its own drain; Claude reads it for context before starting and appends entries as work progresses. Set SKUNKWORKS_API_URL and SKUNKWORKS_API_TOKEN to use."
-homepage: https://github.com/kabeer11000/skunkworks-logs-mcp
+description: "Drains — engineering log. Use whenever working on a project, investigating a problem, making decisions, or when asked about 'what happened' / 'what was decided' / 'what shipped'. Each project/team has its own drain; Claude reads it for context before starting and appends entries as work progresses. Set DRAINS_API_URL and DRAINS_API_TOKEN to use."
+homepage: https://github.com/drains-dev/mcp
 ---
 
-# SkunkWorks Logs
+# Drains
 
 Engineering log that lives alongside your work — a running record every project,
 incident, and team writes to. Claude uses it as **persistent memory**: read before

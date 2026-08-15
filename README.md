@@ -1,6 +1,6 @@
 # drains-claude-plugin
 
-Claude Code plugin for [SkunkWorks Logs](https://github.com/kabeer11000/skunkworks-logs-mcp) — engineering drain/entry log server.
+Claude Code plugin for [Drains](https://github.com/drains-dev/mcp) — engineering log server.
 
 ## Installation
 
@@ -15,7 +15,7 @@ Or add to your `settings.json` to pull from this repo:
 ```json
 {
   "pluginRegistry": {
-    "drains": "https://github.com/kabeer11000/drains-claude-plugin"
+    "drains": "https://github.com/drains-dev/claude-plugin"
   }
 }
 ```
@@ -27,17 +27,17 @@ Configure the MCP server first:
 ```json
 {
   "mcpServers": {
-    "skunkworks-logs": {
+    "drains": {
       "command": "npx",
-      "args": ["-y", "skunkworks-logs-mcp"]
+      "args": ["-y", "github:drains-dev/mcp"]
     }
   }
 }
 ```
 
 And set env vars:
-- `SKUNKWORKS_API_URL` — your SkunkWorks Logs instance URL
-- `SKUNKWORKS_API_TOKEN` — your account API token
+- `DRAINS_API_URL` — your Drains instance URL
+- `DRAINS_API_TOKEN` — your account API token
 
 ## Contents
 

@@ -1,7 +1,7 @@
 {
   "name": "@kabeer11000/drains-claude-plugin",
   "version": "0.1.0",
-  "description": "Claude Code plugin for SkunkWorks Logs — engineering drain/entry log. Use when working on projects, investigating problems, or answering questions about past decisions/events.",
+  "description": "Claude Code plugin for Drains — engineering log. Use when working on projects, investigating problems, or answering questions about past decisions/events.",
   "license": "MIT",
   "homepage": "https://github.com/kabeer11000/drains-claude-plugin",
   "repository": {
